@@ -216,9 +216,9 @@ t_UPDATE = r':='
 t_QUOTES = r'\"' 
 t_MOD = r'\%'
 ##Modificaciones propias
-t_AND = r'\&\&'
-t_OR = r'\|{2}'
-t_NOT = r'\!'
+t_AND = r'\and'
+t_OR = r'\or'
+t_NOT = r'\not'
 t_DDOT = r'\:'
 
 def t_ID(t):
